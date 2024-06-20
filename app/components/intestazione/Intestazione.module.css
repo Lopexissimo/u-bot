@@ -1,0 +1,21 @@
+.logo{
+    padding-left: 0;
+    flex: 1;
+    width: 20vw;
+    height: auto;
+
+}
+.menu{
+    flex: 2;
+    float: inline-end;
+    width: 20vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 55vw;
+
+  /*  background-color: aquamarine;*/
+    
+}

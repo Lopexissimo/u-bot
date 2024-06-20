@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    border: 2px solid white
+}
+
+.text{
+    top: 20%;
+    position: absolute;
+    color: white; /* Colore del testo */
+    width: 60%;
+    padding: 20px;
+    float: left;
+    z-index: 1;
+}
+.img{
+    z-index: 0;
+    opacity: 0.3;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.text p{
+    font-size:2em;
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+.container h1{
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 100%;
+    text-align: end;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text p{
+    font-size: 1.5em;
+}
+.contactButton{
+    position: absolute;
+}
+.titolo{
+    width: 100%;
+    text-align: end;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img{
+    height: 20vh;
+    width: auto;
+    margin-right: 4vw;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.text button{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    width: 20vw;
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div{
+    box-sizing: border-box;
+    align-items: center;
+}
+.contatti, .bottone{
+    flex: 1 1 50%;
+}
+.bottone{
+    padding: 10px
+}
+.bottone button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+}
+.mappa{
+    flex: 1 1 100%;
+    align-items: center;
+    text-align: center;
+}
+.titolo{
+    width: 100%;
+    text-align: end;
+}

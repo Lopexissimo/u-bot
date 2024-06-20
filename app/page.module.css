@@ -1,0 +1,12 @@
+.main{
+  background-color: black;
+  color: white;
+  font-family:'jost';
+  font-weight: 100;
+  line-height: 43.35px;
+  letter-spacing: 0.5ch;
+}
+.main h1{
+  font-size: 48px;
+  font-weight: 200;
+}

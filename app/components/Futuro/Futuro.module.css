@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: 6fr 2fr 6fr ;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+   
+}
+.infos{
+    margin-top: 100px;
+    border: solid white 3px;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+}
+.infos p{
+    margin: 20px;
+    font-size: 1.4em;
+}
+.mezzo{
+    position: relative;
+    margin-top: 150px;
+    padding: 2px;
+    text-align: center;
+    font-size: 1.2em;
+}

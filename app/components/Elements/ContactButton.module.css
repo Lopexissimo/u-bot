@@ -1,0 +1,12 @@
+.contactButton{
+    background-color: black;
+    border: none;
+    padding: 10px;
+    margin: 30px;
+}
+.contactButton a{
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+    letter-spacing: 0.8ch;
+}

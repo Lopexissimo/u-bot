@@ -1,0 +1,23 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown button {
+    position: relative;
+    margin-top: 80px;
+}
+
+.contenuto {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: darkgray;
+    float: left;
+}
+
+.contenuto a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
