@@ -1,19 +1,20 @@
 .dropdown {
-    position: relative;
+
 }
 
 .dropdown button {
     position: relative;
-    margin-top: 80px;
+    top: 30px;
 }
 
 .contenuto {
     display: block;
-    position: absolute;
+    position:absolute;
+    left: 0;
     z-index: 1;
     width: 100%;
-    background-color: darkgray;
-    float: left;
+    background-color: rgb(67, 66, 66);
+    padding: 25px;
 }
 
 .contenuto a {
