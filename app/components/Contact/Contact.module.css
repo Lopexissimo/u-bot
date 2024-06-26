@@ -1,28 +1,42 @@
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
 }
-.container div{
+
+.container div {
     box-sizing: border-box;
     align-items: center;
 }
-.contatti, .bottone{
+
+.contatti,
+.bottone {
     flex: 1 1 50%;
 }
-.bottone{
+
+.bottone {
     padding: 10px
 }
-.bottone button{
+
+.bottone button {
     width: 100%;
     height: 100%;
     font-size: 1.5em;
 }
-.mappa{
+
+.mappa {
     flex: 1 1 100%;
     align-items: center;
     text-align: center;
 }
-.titolo{
-    width: 100%;
+
+.titolo {
+    width: 90%;
     text-align: end;
+}
+
+.address{
+    width: 100%;
+    text-align: center;
 }

@@ -11,13 +11,11 @@ export default function Scropi() {
             <h1 className={classes.titolo}>Scopri cosa facciamo</h1>
             <div className={classes.container}>
                 <div className={classes.text}>
-                    <p>we make impactufl experiencies by fueling</p>
-                    <ContactButton className={classes.contactButton} />
+                    <p>we make impactufl experiencies by fueling</p>                    
                 </div>
-                <div className={classes.menuContainer}>
-                    <SideMenu />
-                </div>
+                <SideMenu />
             </div>
+            <ContactButton className={classes.contactButton} />
         </>
     )
 }

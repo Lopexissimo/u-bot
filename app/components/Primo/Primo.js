@@ -6,11 +6,11 @@ export default function Primo() {
     return (
         <div className={classes.container}>
             <Image src={RobotImg} alt="RobotImg" className={classes.img} />
-            <div className={classes.text}>
+            <div className={classes.uppertext}>
                 <p> We make impactful experiences by fueling new energy between brands and people.</p>
             </div>
-            <div className={classes.text}>
-                <p> We make impactful experiences by fueling new energy between brands and people.</p>
+            <div className={classes.lowertext}>
+                <p> We make impactful</p>
             </div>
         </div>
     )

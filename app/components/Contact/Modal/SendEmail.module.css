@@ -1,0 +1,41 @@
+.modalbackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 80, 80, 0.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 30%;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.modal h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.modal input,.modal textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    height: 1rem;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    resize: none;
+}
+
+.modal textarea{
+    height: 5rem;
+}

@@ -1,21 +1,49 @@
-'use client'
+"use client";
 
-import 'leaflet/dist/leaflet.css';
-import "leaflet-defaulticon-compatibility"
-import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
-import { MapContainer, TileLayer } from 'react-leaflet'
+import React, { useEffect } from "react";
+import { Loader } from "@googlemaps/js-api-loader";
 
-function Map(){
-    return(
-        <MapContainer center={[44.706323, 10.609102]} zoom={13} scrollWheelZoom={true}>
-             <TileLayer
-            attribution= '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
-             url= 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-            /> 
+export default function MyMap() {
+    const mapRef = React.useRef(null);
 
-        </MapContainer>
-    )
+    useEffect(() => {
+        prepareMap();
+    }, []);
 
+    const prepareMap = () => {
+        const loader = new Loader({
+            apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+            version: "weekly",
+        });
+        loader.importLibrary("maps").then((res) => {
+            const { Map } = res;
+            const position = { lat: 44.69825, lng: 10.63125 };
+            const mapOptions = {
+                center: position,
+                zoom: 16,
+                mapId: "YOUR_MAP_ID",
+            };
+            const map = new Map(mapRef.current, mapOptions);
+
+            loader.importLibrary("marker").then((res) => {
+                const { Marker } = res;
+                const marker = new Marker({ position, map });
+            });
+        });
+    };
+
+    return (
+        <div
+            style={{
+                width: "90vw",
+                height: "400px",
+                borderRadius: "10px",
+                backgroundColor: "black",
+                marginTop: "3vh",
+            }}
+            ref={mapRef}
+        >
+            <h1>Caricamento mappa...</h1>
+        </div>
+    );
 }
-
-export default Map;

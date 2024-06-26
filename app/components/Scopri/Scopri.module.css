@@ -1,14 +1,10 @@
 .container{
     display: flex;
     justify-content:space-between;
-}
-.container h1{
-    margin-bottom: 30px;
-    padding: 5px;
-    width: 100%;
-    text-align: end;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
+    padding: 0 2vw;
+    max-width: 88vw;
+    box-sizing: border-box;
+    margin-left: 5%;
 }
 .text{
     display: flex;
@@ -22,7 +18,19 @@
     position: absolute;
 }
 .titolo{
-    width: 100%;
+    width: 90%;
     text-align: end;
     margin-bottom: 50px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+   
+  }

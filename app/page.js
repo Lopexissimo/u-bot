@@ -17,8 +17,6 @@ export default function Home() {
       <Scopri/>
       <Programma/>
       <Contact/>
-
-
     </main>
   );
 }

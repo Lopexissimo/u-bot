@@ -14,7 +14,7 @@ export default function Futuro() {
                     <p>+20% produzione </p>
                 </div>
                 <div className={classes.mezzo}>
-                    <p>vs<br /> 3 <br />anni</p>
+                    <p>vs <br/>3 anni</p>
                 </div>
                 <div className={classes.infos}>
                     <p>+20% produzione </p>
