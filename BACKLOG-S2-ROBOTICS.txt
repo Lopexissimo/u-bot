@@ -1,0 +1,6 @@
+BACKLOG SPRINT 2
+-Nella sezione iniziale dobbiamo mettere un video o una gif
+-Il menu quando cliccate le voci deve portare alla voce con un animazione lenta e morbida + https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1
+-Animazione CSS per sidemenu, con apertura e chiusura delle caselle
+-Dinamicizzazione dell' programma aziende
+-Invio Email
